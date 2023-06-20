@@ -6,6 +6,7 @@ $valor = $_POST['valor'];
 $historico = $_POST['historico'];
 $cheque = $_POST['cheque'];
 
+
 $sql = "INSERT INTO fluxo_caixa (data, tipo, valor, historico, cheque)";
     $sql .= " VALUES ('".$data."','".$tipo."','".$valor."','".$historico."','".$cheque."')";
     
@@ -19,8 +20,3 @@ $sql = "INSERT INTO fluxo_caixa (data, tipo, valor, historico, cheque)";
 
 ?>
 <a href = "index.php"><button>Voltar</button></a>
-
-
-
-
-?>
