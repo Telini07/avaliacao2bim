@@ -18,6 +18,7 @@
 <h1>Cadastro de Fluxo de Caixa</h1>
 
 <form action="altera_fluxo_caixa_exe.php" method="post" enctype="multipart/form-data">
+<input type="hidden" name="id" value="<?php echo $row['id']?>">
 <div>    
     <label>Data: </label>
     <input type="date" name="data" id="data">
@@ -25,9 +26,9 @@
 <br>
 <div>    
     <label>Tipo: </label>
-    <input type="radio" name="tipo" id="tipo">
+    <input type="radio" name="tipo" id="tipo" value="entrada">
     <label>Entrada</label>
-    <input type="radio" name="tipo" id="tipo">
+    <input type="radio" name="tipo" id="tipo" value="saida">
     <label>Saída</label>
 </div>
 <br>

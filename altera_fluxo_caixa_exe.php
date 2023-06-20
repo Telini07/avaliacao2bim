@@ -9,7 +9,7 @@
 
     echo "<h1>Alterar dados de agenda</h1><hr>";
     echo "<h2>Usuario:$historico</h2>";
-    $sql = "UPDATE fluxo_agenda set data = '$data', 
+    $sql = "UPDATE fluxo_caixa set data = '$data', 
     tipo = '$tipo', 
     valor = '$valor', 
     historico = '$historico',

@@ -1,6 +1,5 @@
 <?php
 include("conexao.php");
-
 $data = $_POST['data'];
 $tipo = $_POST['tipo'];
 $valor = $_POST['valor'];
@@ -17,7 +16,6 @@ $sql = "INSERT INTO fluxo_caixa (data, tipo, valor, historico, cheque)";
         echo "<strong>Dados cadastrados com sucesso!</strong>";
     else
         echo "<strong>Erro ao tentar cadastrar!<strong>";    
-
 
 ?>
 <a href = "index.php"><button>Voltar</button></a>
