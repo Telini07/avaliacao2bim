@@ -21,7 +21,7 @@
 <input type="hidden" name="id" value="<?php echo $row['id']?>">
 <div>    
     <label>Data: </label>
-    <input type="date" name="data" id="data">
+    <input type="date" name="data" id="data" value="<?php echo $row['data']?>">
 </div>
 <br>
 <div>    
@@ -34,12 +34,12 @@
 <br>
 <div>    
     <label>Valor: </label>
-    <input type="text" name="valor" id="valor">
+    <input type="text" name="valor" id="valor" value="<?php echo $row['valor']?>">
 </div>
 <br>
 <div>    
     <label>Histórico: </label>
-    <input type="text" name="historico" id="historico">
+    <input type="text" name="historico" id="historico" value="<?php echo $row['historico']?>">
 </div>
 <br>
 <div>    
